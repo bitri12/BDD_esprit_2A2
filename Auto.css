@@ -1,0 +1,17 @@
+ a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 50px ;
+    margin: 30px;
+    box-shadow : 10px 5px 5px black;  
+    background-color: brown;
+}
+.menu{
+    margin-top: 250px;
+    margin-left: 250px;
+}
+h1{
+    margin-left: 200px;
+    box-shadow : 10px 5px 5px brown; 
+}
