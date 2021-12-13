@@ -1,8 +1,13 @@
 <?php
- if ($c = oci_connect("hr", "hr_password", "localhost/XE")) {
-   echo "Successfully connected to Oracle.";
- } else {
-   $err = oci_error();
-   echo "Oracle Connect Error " . $err['text'];
- }
- ?>
+
+$conn = oci_connect("sys", "Mourad123__", "//localhost/orcl");
+if (!$conn) {
+   $m = oci_error();
+   echo $m['message'], "\n";
+   exit;
+}
+else {
+   print "Connected to Oracle!";
+}
+
+?>
