@@ -1,0 +1,29 @@
+h3{
+    color:red;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+input{
+    
+    font-size: 60px;  
+    
+
+}
+.subButton{
+    text-align: left;
+    color: green;
+}
+.resButton{
+    text-align: right;
+    color:red;
+}
+.ktiba{
+    text-align: center;
+}
+button{
+    margin-left: 360px;
+    font-size: 60px; 
+}
