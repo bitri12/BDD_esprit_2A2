@@ -1,11 +1,8 @@
 <?php
-
-try {
-    $bdd = new PDO('oci:dbname=localhost/XE', 'sys', 'Mourad123__'); // changer password avec password compte oracle
-}
-catch(Exception $e)
-{
-	die('Echec de connexion à la base de donnée : '.$e->getMessage());
-}
-
-?>
+ if ($c = oci_connect("hr", "hr_password", "localhost/XE")) {
+   echo "Successfully connected to Oracle.";
+ } else {
+   $err = oci_error();
+   echo "Oracle Connect Error " . $err['text'];
+ }
+ ?>
